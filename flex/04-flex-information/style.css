@@ -2,9 +2,34 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+}
+
+.cards {
+  display: flex;
+  gap: 52px; 
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
 img {
   width: 100px;
   height: 100px;
+}
+
+.text {
+  text-align: center;
 }
 
 .title {
